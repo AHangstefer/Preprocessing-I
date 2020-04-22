@@ -143,43 +143,37 @@ body {
   justify-content: center;
 }
 header {
-  background-color: lightgray;
-}
-header h1 {
-  font-size: 3rem;
-  display: flex;
-  justify-content: center;
-  padding: 1%;
-}
-header div {
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: center;
+  border: solid 2px goldenrod;
 }
 header section {
+  border: solid 2px red;
+  background-color: darkslategrey;
+}
+header section nav {
   display: flex;
   justify-content: center;
+  justify-content: space-around;
+  border: solid 2px green;
 }
-header section img {
+header section nav a {
+  border: solid 2px blue;
   padding: 2%;
-  border-radius: 4rem;
-}
-header section span {
-  padding: 2%;
-}
-header section span p {
+  text-decoration: none;
+  color: white;
   text-align: left;
-  color: red;
 }
-main span {
-  background-color: pink;
-  border: black 2px solid;
+header article {
+  padding: 2%;
 }
-main article {
-  background-color: wheat;
-  border: green 2px solid;
+header article div {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 1%;
 }
-main section {
-  background-color: cornsilk;
-  border: red 2px solid;
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  padding: 1%;
 }
