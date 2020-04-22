@@ -158,7 +158,6 @@ header section nav a {
   color: white;
   text-align: left;
   text-align: center;
-  border: 2px blue solid;
 }
 header article {
   padding: 2%;
@@ -166,7 +165,7 @@ header article {
 header article div {
   display: flex;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 1%;
 }
 h1 {
@@ -176,16 +175,16 @@ h1 {
   padding: 1%;
 }
 main {
-  border: solid 2px goldenrod;
   border-top: dotted 0.1rem black;
+  border-bottom: dotted 0.1rem black;
+  margin: 1%;
+  padding: 2%;
 }
 main #firstsection {
-  border: solid 2px green;
   display: flex;
   justify-content: center;
 }
 main #firstsection span {
-  border: solid 5px hotpink;
   width: 30%;
   heigth: 20%;
   display: flex;
@@ -195,6 +194,7 @@ main #firstsection span {
 }
 main #firstsection span div {
   padding: 5%;
+  font-size: 1.2rem;
 }
 h2 {
   font-size: 1.5rem;
@@ -202,4 +202,37 @@ h2 {
 #firstsection img {
   height: 30%;
   width: 40%;
+}
+object {
+  display: flex;
+  align-items: center;
+}
+object article {
+  width: 50%;
+  height: 50%;
+}
+object article ul {
+  text-align: left;
+  font-size: 1.4rem;
+  padding: 8%;
+}
+object article ul span {
+  font-size: 1.2rem;
+}
+object #lastsection {
+  width: 50%;
+  height: 50%;
+}
+object #lastsection ul {
+  text-align: left;
+  font-size: 1.4rem;
+  padding: 8%;
+}
+object #lastsection ul span {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
 }
