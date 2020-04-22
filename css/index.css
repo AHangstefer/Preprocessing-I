@@ -142,25 +142,23 @@ body {
   display: flex;
   justify-content: center;
 }
-header {
-  border: solid 2px goldenrod;
-}
 header section {
-  border: solid 2px red;
   background-color: darkslategrey;
+  margin: 1%;
 }
 header section nav {
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  border: solid 2px green;
+  border: pink 2px solid;
 }
 header section nav a {
-  border: solid 2px blue;
   padding: 2%;
   text-decoration: none;
   color: white;
   text-align: left;
+  text-align: center;
+  border: 2px blue solid;
 }
 header article {
   padding: 2%;
@@ -176,4 +174,32 @@ h1 {
   justify-content: center;
   font-size: 4rem;
   padding: 1%;
+}
+main {
+  border: solid 2px goldenrod;
+  border-top: dotted 0.1rem black;
+}
+main #firstsection {
+  border: solid 2px green;
+  display: flex;
+  justify-content: center;
+}
+main #firstsection span {
+  border: solid 5px hotpink;
+  width: 30%;
+  heigth: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+main #firstsection span div {
+  padding: 5%;
+}
+h2 {
+  font-size: 1.5rem;
+}
+#firstsection img {
+  height: 30%;
+  width: 40%;
 }
