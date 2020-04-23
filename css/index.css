@@ -237,18 +237,25 @@ h2 {
 object {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 @media (max-width: 500px) {
   object {
-    justify-content: center;
+    display: inline;
+    align-items: center;
   }
 }
 object article {
   width: 50%;
   height: 50%;
 }
+@media (max-width: 500px) {
+  object article {
+    width: 100%;
+    padding: 2%;
+  }
+}
 object article ul {
-  text-align: left;
   font-size: 1.4rem;
   padding: 8%;
 }
@@ -259,8 +266,15 @@ object #lastsection {
   width: 50%;
   height: 50%;
 }
+@media (max-width: 500px) {
+  object #lastsection {
+    display: inline;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+  }
+}
 object #lastsection ul {
-  text-align: left;
   font-size: 1.4rem;
   padding: 8%;
 }

@@ -217,20 +217,28 @@ h2{
 object{
 	display: flex;
 	align-items: center;
+	justify-content: center;
+
 
 	@media (max-width: 500px){
-		justify-content: center;
+		display: inline;
+		align-items: center;
 	}
+
 
 
 	article{
 		width: 50%;
 		height: 50%;
 
+		@media(max-width: 500px){
+			width: 100%;
+			padding: 2%;
+			
+		}
 		
 
 		ul{
-			text-align: left;
 			font-size:1.4rem;
 			padding: 8%;
 
@@ -252,10 +260,16 @@ object #lastsection{
 	width: 50%;
 	height: 50%;
 
+
+	@media(max-width: 500px){
+		display: inline;
+		align-items: center;
+		width: 100%;
+		padding: 2%;
+	}
 	
 
 	ul{
-		text-align: left;
 		font-size:1.4rem ;
 		padding: 8%;
 
