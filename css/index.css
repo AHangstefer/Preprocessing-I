@@ -154,6 +154,8 @@ header section nav {
 @media (max-width: 500px) {
   header section nav {
     flex-direction: column;
+    padding: 2%;
+    margin: 0.5%;
   }
 }
 header section nav a {
@@ -162,6 +164,9 @@ header section nav a {
   color: white;
   text-align: left;
   text-align: center;
+}
+a:hover {
+  color: coral;
 }
 header article {
   padding: 2%;
@@ -235,7 +240,7 @@ object {
 }
 @media (max-width: 500px) {
   object {
-    display: block;
+    justify-content: center;
   }
 }
 object article {

@@ -61,6 +61,8 @@ html, body {
 
 @border:  dotted .1rem black;
 
+@fontsize: 1.2rem;
+
 
 .box{
 	padding: 2%;
@@ -87,6 +89,7 @@ header{
 
 			@media (max-width: 500px){
 					flex-direction: column;
+					.box();
 				
 			}
 		
@@ -97,6 +100,7 @@ header{
 				color: white;
 				text-align: left;
 				text-align: center;
+
 
 				
 
@@ -109,8 +113,13 @@ header{
 	}
 }
 
+a:hover{
+	color: coral;
+}
+
 header article{
 	padding: 2%;
+	
 
 
 	div{
@@ -168,7 +177,7 @@ main {
     		
     			div{
 					padding: 5%;	
-					font-size: 1.2rem;
+					font-size: @fontsize;
 				
 
 				
@@ -210,8 +219,9 @@ object{
 	align-items: center;
 
 	@media (max-width: 500px){
-		display: block;
+		justify-content: center;
 	}
+
 
 	article{
 		width: 50%;
@@ -228,7 +238,7 @@ object{
 		
 
 			span{
-				font-size: 1.2rem;
+				font-size: @fontsize;
 
 			}
 			
@@ -251,7 +261,7 @@ object #lastsection{
 
 	
 		span{
-			font-size: 1.2rem;
+			font-size: @fontsize;
 		}
 	}
 	
