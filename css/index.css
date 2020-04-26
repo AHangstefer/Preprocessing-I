@@ -262,23 +262,29 @@ object article ul {
 object article ul span {
   font-size: 1.2rem;
 }
-object #lastsection {
+#lastsection {
   width: 50%;
   height: 50%;
 }
 @media (max-width: 500px) {
-  object #lastsection {
+  #lastsection {
     display: inline;
     align-items: center;
-    width: 100%;
-    padding: 2%;
   }
 }
-object #lastsection ul {
+#lastsection ul {
   font-size: 1.4rem;
   padding: 8%;
 }
-object #lastsection ul span {
+#lastsection ul h3 {
+  padding-top: 1%;
+}
+@media (max-width: 500px) {
+  #lastsection ul h3 {
+    padding-top: 15%;
+  }
+}
+#lastsection ul span {
   font-size: 1.2rem;
 }
 h3 {
